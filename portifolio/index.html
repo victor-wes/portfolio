@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mini-fmw.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Projeto portifólio</title>
+</head>
+<body>
+
+    <header id="header" class="color-complement-0">
+
+        <div class="logo">
+            <a href="../portifolio/index.html">VictorDev</a>
+        </div><!-- /.logo -->
+        
+        <nav id="menuDesktop" class="menuDesktop">
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav><!--menuDesktop-->
+
+        <!--Menu para mobile-->
+
+        <nav id="menuMobile" class="menuMobile">
+            <div class="menu-hamburguer">
+                <input type="button" id="txtHam" onclick="fadeOut()" value="X">
+                <img id="imgHam" src="imagens/menu_hamburguer.png" alt="menu" onclick="fadeIn()">
+            </div><!--menu-hamburguer-->
+            <ul id="menuMobileUl">
+                <li><a onclick="fadeOut()" href="#projetos">Projetos</a></li>
+                <li><a onclick="fadeOut()" href="#sobre">Sobre</a></li>
+                <li><a onclick="fadeOut()" href="#contato">Contato</a></li>
+            </ul>
+        </nav><!--menuMobile-->
+        <div class="clear"></div><!--clear-->
+    </header>
+
+    <main>
+
+        <section class="apresentacao">
+            <div class="container-apresentacao">
+                <div class="apresentacao-autor">
+                    <h1>Olá, meu nome é Victor</h1>
+                    <h2>Desenvolvedor Web</h2>
+                </div><!--apresentacao-autor-->
+            </div><!-- /.container-apresentacao -->
+        </section><!--apresentacao-->
+
+        <section id="projetos" class="espacamento color-primary-0">
+            <h1 class="titulo">Estes são alguns dos meus projetos feitos</h1>
+
+            <div class="container-projetos">
+                <a href="../projetos-simples-js/contagem-regressiva/contagem-regressiva.html" class="projeto0">
+                    <img src="imagens/fundo.png" alt="nome do projeto">
+                    <p class="transicao">
+                        <span><</span>
+                        Contagem Regressiva
+                        <span>/></span>
+                    </p> 
+                </a><!-- /.projeto01 -->
+
+                <a href="../projetos-simples-js/hora-do-dia/hora-do-dia.html" class="projeto0">
+                    <img src="imagens/fundo.png" alt="nome do projeto">
+                    <p class="transicao">
+                        <span><</span>
+                        Horda do Dia
+                        <span>/></span>
+                    </p> 
+                </a><!-- /.projeto02 -->
+
+                <a href="../projetos-simples-js/verificador-de-idade/verificador-de-idade.html" class="projeto0">
+                    <img src="imagens/fundo.png" alt="nome do projeto">
+                    <p class="transicao">
+                        <span><</span>
+                        Verificador de Idade
+                        <span>/></span>
+                    </p>  
+                </a><!-- /.projeto03 -->
+
+                <div class="clear"></div><!--clear-->
+
+            </div><!-- /.projetos -->
+        </section><!-- /.sessaoProjetos -->
+
+        <section id="sobre" class="espacamento color-secondary-1-0">
+            <h1 class="titulo">Um pouco mais sobre mim</h1>
+            <div class="sessao-autor">
+                <div class="img-autor">
+                </div><!-- /.img-autor -->
+
+                <div class="sobre-autor">
+                    <h2>Victor Wesley</h2>
+                    <h3>Quem sou?</h3>
+                    <p>Olá, meu nome é Victor Wesley de Araujo Gomes e sou do estado de Alagoas, atualmente tenho 20 anos e estudo programação a aproximadamente 1 ano.<br> Atualmente estou atuando na área de Front-end, porém, meu desejo é futuramente me tornar full-stack.<br> Sendo assim programo basicamente em HTML, CSS e JAVASCRIPT.</p>
+                </div><!--sobre-autor-->
+            </div><!--sessao-autor-->
+            <div class="clear"></div>
+            <!-- /.clear -->
+        </section><!-- /.sobre -->
+
+        <section id="contato" class="espacamento color-secondary-2-0">
+            <div class="titulo">
+                <h1>Vamos trabalhar juntos...</h1>
+                <h2>Entre em contato comigo.</h2>
+            </div><!-- /.titulo-contato -->
+
+            <div class="redes-sociais">
+                <a href="#" class="redes">
+                    <i class="fab fa-linkedin"></i>
+                    <span>Linkedin</span>
+                </a>
+            </div><!-- /.redes-sociais -->
+
+            <div class="redes-sociais">
+                <a href="#" class="redes">
+                    <i class="fab fa-github"></i>
+                    <span>Github</span>
+                </a>
+            </div><!-- /.redes-sociais -->
+
+            <div class="redes-sociais">
+                <a href="#" class="redes">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>Mande um E-mail</span>
+                </a>
+            </div><!-- /.redes-sociais -->
+
+            <div class="redes-sociais">
+                <a href="#" class="redes">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Whatsapp</span>
+                </a>
+            </div><!-- /.redes-sociais -->
+
+            <div class="clear"></div><!-- /.clear -->
+        </section><!-- /.contato -->
+
+    </main>
+
+    <footer>
+        <p>Maceió-AL</p>
+    </footer>
+    
+
+    <script src="js/mini-fmw.js"></script>
+    <script src="js/function.js"></script>
+</body>
+</html>

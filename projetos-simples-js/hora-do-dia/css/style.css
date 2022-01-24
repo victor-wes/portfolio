@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(76, 152, 223);
+    font: normal normal 1.3em verdana, sans-serif;
+}
+
+main{
+    margin-top: 100px;
+}
+
+main h1{
+    font-size: 1.7em;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+section div{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+footer{
+    font-size: 0.85em;
+    margin-top: 30px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../fmw/mini-fmw.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contagem regressiva</title>
+</head>
+<body>
+    
+    <header id="header" class="color-complement-0">
+
+        <div class="logo">
+            <a href="../../portifolio/index.html">VictorDev</a>
+        </div><!-- /.logo -->
+        
+        <nav class="menuDesktop">
+            <ul>
+                <li><a href="../../portifolio/index.html#projetos">Projetos</a></li>
+                <li><a href="../../portifolio/index.html#sobre">Sobre</a></li>
+                <li><a href="../../portifolio/index.html#contato">Contato</a></li>
+            </ul>
+        </nav><!--menuDesktop-->
+
+        <!--Menu para mobile-->
+
+        <nav class="menuMobile">
+            <div class="menu-hamburguer">
+                <input type="button" id="txtHam" onclick="fadeOut()" value="X">
+                <img id="imgHam" src="image/menu_hamburguer.png" alt="menu" onclick="fadeIn()">
+            </div><!--menu-hamburguer-->
+            <ul id="menuMobile">
+                <li><a onclick="fadeOut()" href="../../portifolio/index.html#projetos">Projetos</a></li>
+                <li><a onclick="fadeOut()" href="../../portifolio/index.html#sobre">Sobre</a></li>
+                <li><a onclick="fadeOut()" href="../../portifolio/index.html#contato">Contato</a></li>
+            </ul>
+        </nav><!--menuMobile-->
+        <div class="clear"></div><!--clear-->
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h1>Super Contador</h1>
+        </div>
+
+        <section>
+            <div>
+                <p>
+                    <label for="inicio">Início:</label>
+                    <input type="number" max="9999" name="inicio" id="inicio" on>
+                    <span id="iniant" class="numero-anterior"></span>
+                </p>
+                <p>
+                    <label for="fim">Fim:</label>
+                    <input type="number" max="9999" name="fim" id="fim">
+                    <span id="fimant" class="numero-anterior"></span>
+                </p>
+                <p>
+                    <label for="pulo">Pulo:</label>
+                    <input type="number" max="9999" name="pulo" id="pulo" min="1">
+                    <span id="pulant" class="numero-anterior"></span>
+                </p>
+                <p class="container">
+                    <input class="botao" type="button" value="Contar" onclick="contar()">
+                </p>
+            </div>
+            <div id="res">
+            </div>
+            <!-- /#res -->
+            <div id="explosao">
+                <input id="fechar" type="button" value="X" onclick="fechar()">
+                <video controls autoplay loop>
+                    <source src="videos/fogos.mp4" type="video/mp4">
+                    <source src="videos/Fogos.mkv" type="video/mkv">
+                    <source src="videos/Fogos.webm" type="video/webm">
+                    <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+                </video>
+            </div><!-- /.explosao -->
+            <p class="container">
+                <input id="reiniciar" class="botao" type="button" value="Reiniciar" onclick="reiniciar()">
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; VictorDev</p>
+    </footer>
+
+    <script src="../fmw/mini-fmw.js"></script>
+    <script src="js/function.js"></script>
+</body>
+</html>

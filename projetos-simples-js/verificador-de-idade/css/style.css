@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(139, 30, 212);
+    font: normal normal 1.2em verdana, sans-serif;
+}
+
+main{
+    margin-top: 100px;
+}
+
+main h1{
+    font-size: 1.7em;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section{
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+section div{
+    padding: 10px 15px;
+}
+
+section div > p{
+    margin: 10px 0;
+}
+
+input.input{
+    margin: 15px 0;
+}
+
+div#res{
+    text-align: center;
+    padding: 30px 2%;
+    font-size: 1.2em;
+}
+
+footer{
+    font-size: 0.85em;
+    margin-top: 30px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: 0;
+    text-align: center;
+}
+
+.botao{
+    margin-top: 15px;
+    width: 130px;
+    padding: 8px;
+    background-color: #474747c2;
+    border-radius: 6px;
+    border: 1px solid #00000050;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px #4747475e;
+    color: white;
+}
+
+#txtano{
+    width: 220px;
+    min-height: 15px;
+    padding: 3px 5px;
+    font-size: 18px;
+}

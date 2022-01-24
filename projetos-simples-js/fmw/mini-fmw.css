@@ -1,0 +1,178 @@
+/*paleta de cores*/
+
+.color-primary-0 {
+    background-color: #42368c; 
+}
+.color-secondary-1-0 {
+    background-color: #29258c; 
+}
+
+.color-secondary-2-0 {
+    background-color: #303841; 
+}
+
+.color-secondary-3 {
+    background-color: rgba(242, 242, 242, 1); 
+}
+
+.color-complement-0 {
+    background-color: #000000; 
+}
+
+/*****************/
+
+/*tags gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+/*************/
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    max-width: 1400px;
+    width: 100%;
+    text-align: center;
+    padding: 25px 2%;
+}
+
+
+header .logo{
+    float: left;
+}
+
+div.logo a{
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: "open sans";
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+/*menu-DESKTOP*/
+header nav.menuDesktop{
+    float: right;
+}
+
+header nav.menuDesktop ul{
+    list-style-type: none;
+    margin-top: 3px;
+}
+
+nav.menuDesktop ul li{
+    float: left;
+    margin: 0 25px;
+}
+
+nav.menuDesktop a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/***************/
+
+
+/*menu-MOBILE*/
+nav.menuMobile{
+    width: 65%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#txtHam{
+    display: none;
+    float: right;
+    margin-top: 19px;
+    margin-right: 21px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    width: 35px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+nav.menuMobile img{
+    display: none;
+    float: right;
+    margin-top: 23px;
+    margin-right: 23px;
+    width: 30px;
+    cursor: pointer;
+}
+
+nav.menuMobile ul{
+    display: none;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    top: 74px;
+    right: 0;
+    padding: 10px 20px;
+    list-style-type: none;
+    background-color: #151316;
+}
+
+nav.menuMobile ul li{
+    max-width: 550px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #333333;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav.menuMobile ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+/*****************/
+
+
+/*RESPONSIVIDADE*/
+@media screen and (min-width:650px){
+    #menuMobile{
+        display: none;
+    }
+
+    #menuDesktop{
+        display: block;
+    }
+}
+
+@media screen and (max-width:650px){
+    header{
+        padding: 20px 2%;
+    }
+      
+    header .logo{
+        margin: 0;
+        width: 35%;
+
+    }
+      
+    header nav.menuDesktop{
+        display: none;
+    }
+
+    nav.menuMobile img{
+        display: block;
+    }
+}
