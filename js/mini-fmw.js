@@ -21,3 +21,15 @@ function fadeOut(){
         imgHam.style.display = 'block';
     }
 }
+
+function menuProjetosOn(){
+    document.querySelector('#baixo').style.display = 'none';
+    document.querySelector('#cima').style.display = 'inline';
+    document.querySelector('#header-atalho').style.display = 'block';
+}
+
+function menuProjetosOff(){
+    document.querySelector('#baixo').style.display = 'inline';
+    document.querySelector('#cima').style.display = 'none';
+    document.querySelector('#header-atalho').style.display = 'none';
+}
