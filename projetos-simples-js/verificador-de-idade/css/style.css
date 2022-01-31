@@ -14,7 +14,7 @@ main h1{
     text-align: center;
 }
 
-section{
+section.corpo{
     max-width: 500px;
     margin: auto;
     background-color: white;
@@ -23,11 +23,11 @@ section{
     padding: 10px;
 }
 
-section div{
+section.corpo div{
     padding: 10px 15px;
 }
 
-section div > p{
+section.corpo div > p{
     margin: 10px 0;
 }
 

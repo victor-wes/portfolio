@@ -27,7 +27,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "open sans";
-    color: rgba(242, 242, 242, 1);
 }
 
 .clear{
@@ -73,7 +72,7 @@ section.header-atalho{
     width: 100%;
     padding: 30px 2%;
     background-color: white;
-
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 40%);
 }
 
 .projeto-atalho{
@@ -83,6 +82,7 @@ section.header-atalho{
 
 div.atalho-container{
     max-width: 350px;
+    margin: 0 auto;
 }
 
 div.atalho-container h1.projeto-atalho-h1{
