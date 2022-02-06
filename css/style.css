@@ -315,11 +315,6 @@ footer p{
 
 
 @media screen and (max-width:600px){
-    .projeto0 .container-img{
-        max-height: 400px;
-        height: 100%;
-    }
-
     .contato .redes-sociais{
         width: 100%;
         margin: 50px 0;
