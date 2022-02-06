@@ -1,16 +1,16 @@
-*{
+* {
     color: rgb(242, 242, 242);
 }
 
-body{
+body {
     height: 100%;
 }
 
-main{
+main {
     padding-top: 50px;
 }
 
-section.apresentacao{
+section.apresentacao {
     background-image: url('../imagens/img-fundo-port.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,12 +18,12 @@ section.apresentacao{
     height: 550px;
 }
 
-div.container-apresentacao{
+div.container-apresentacao {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-section .apresentacao-autor{
+section .apresentacao-autor {
     max-width: 650px;
     margin: 0 auto;
     position: relative;
@@ -32,13 +32,13 @@ section .apresentacao-autor{
     border-radius: 15px;
 }
 
-.apresentacao-autor h1{
+.apresentacao-autor h1 {
     font-size: 50px;
     color: #ffffff;
     text-align: center;
 }
 
-.apresentacao-autor h2{
+.apresentacao-autor h2 {
     font-size: 35px;
     font-weight: 200;
     font-style: italic;
@@ -46,11 +46,11 @@ section .apresentacao-autor{
     text-align: center;
 }
 
-section.projetos{
+section.projetos {
     padding: 60px 2%;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 45px;
     max-width: 780px;
@@ -59,13 +59,13 @@ section.projetos{
     border-bottom: 1px solid white;
 }
 
-div.tipos-projetos{
+div.tipos-projetos {
     width: 100%;
     padding: 20px 2%;
     margin: 20px 0;
 }
 
-.tipos-projetos h2{
+.tipos-projetos h2 {
     float: left;
     width: calc(33.3% - 20px);
     text-align: center;
@@ -78,22 +78,22 @@ div.tipos-projetos{
     font-size: 18px;
 }
 
-.tipos-projetos h2:first-child{
+.tipos-projetos h2:first-child {
     background-color: #2e2085;
     box-shadow: 4px 5px 16px 0px #0000008a;
 }
 
-.tipos-projetos h2:hover{
+.tipos-projetos h2:hover {
     background-color: #2e2085;
     box-shadow: 4px 5px 16px 0px #0000008a;
 }
 
-div.container-projetos{
+div.container-projetos {
     width: 100%;
     margin-top: 60px;
 }
 
-.projeto0{
+.projeto0 {
     background-color: rgb(14, 14, 14);
     width: calc(33.3% - 60px);
     float: left;
@@ -104,41 +104,41 @@ div.container-projetos{
     padding-bottom: 12px;
 }
 
-.projeto0 .container-img{
+.projeto0 .container-img {
     width: 100%;
     padding: 5px;
 }
 
-.container-img img{
+.container-img img {
     width: 100%;
 }
 
-.projeto0 span{
+.projeto0 span {
     color: #d9ff00;
     font-size: 23px;
     display: none;
 }
 
-.transicao{
+.transicao {
     padding: 5px 2%;
     font-size: 25px;
 }
 
-p.transicao:hover > span{
+p.transicao:hover>span {
     display: inline;
 }
 
-section.sobre{
+section.sobre {
     padding: 60px 2%;
 }
 
-div.sessao-autor{
+div.sessao-autor {
     max-width: 900px;
     width: 100%;
     margin: 60px auto 0 auto;
 }
 
-.sessao-autor .img-autor{
+.sessao-autor .img-autor {
     background-image: url(../imagens/imgpadrao.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -149,68 +149,68 @@ div.sessao-autor{
     float: left;
 }
 
-.sessao-autor .sobre-autor{
+.sessao-autor .sobre-autor {
     margin-left: 40px;
     width: calc(65% - 40px);
     float: left;
 }
 
-.sobre-autor h2{
+.sobre-autor h2 {
     font-size: 45px;
     margin-top: -15px;
     margin-bottom: 10px;
 }
 
-.sobre-autor h3{
+.sobre-autor h3 {
     font-size: 28px;
     margin-bottom: 8px;
 }
 
-.sobre-autor p{
+.sobre-autor p {
     font-size: 22px;
 }
 
-.titulo h1{
+.titulo h1 {
     text-align: center;
     font-size: 55px;
     max-width: 780px;
     margin: 0 auto;
 }
 
-.titulo h2{
+.titulo h2 {
     text-align: center;
     font-size: 23px;
     font-weight: 300;
     font-style: italic;
 }
 
-.redes-sociais{
+.redes-sociais {
     float: left;
     width: calc(33.3% - 30px);
     margin: 100px 15px 20px 15px;
     text-align: center;
 }
 
-.redes-sociais:nth-of-type(5){
+.redes-sociais:nth-of-type(5) {
     float: none;
     margin: 250px auto 0 auto;
 }
 
-.redes-sociais a{
+.redes-sociais a {
     text-align: center;
     text-decoration: none;
     margin: 0 auto;
 }
 
-.redes-sociais a span{
+.redes-sociais a span {
     font-size: 28px;
 }
 
-.redes-sociais a i{
+.redes-sociais a i {
     font-size: 30px;
 }
 
-footer{
+footer {
     padding: 20px 2%;
     width: 100%;
     max-width: 1400px;
@@ -219,7 +219,7 @@ footer{
     text-align: center;
 }
 
-footer p{
+footer p {
     font-size: 19px;
     font-weight: lighter;
     text-align: center;
@@ -234,30 +234,31 @@ footer p{
 
 
 
-@media screen and (max-width:1200px){
-  
-  .projeto0{
-    width: calc(50% - 50px);
-    margin: 30px 25px;
-  }
+@media screen and (max-width:1200px) {
+
+    .projeto0 {
+        width: calc(50% - 50px);
+        margin: 30px 25px;
+    }
 }
 
-@media screen and (max-width:900px){
-    .container-img{
+@media screen and (max-width:900px) {
+    .container-img {
         width: 100%;
     }
 
-    .projeto0 p, .projeto0 span{
+    .projeto0 p,
+    .projeto0 span {
         font-size: 22px;
     }
 
-    div.sessao-autor{
+    div.sessao-autor {
         max-width: 500px;
         width: 100%;
         margin: 60px auto 0 auto;
     }
 
-    .sessao-autor .img-autor{
+    .sessao-autor .img-autor {
         max-width: 370px;
         width: 100%;
         height: 450px;
@@ -265,46 +266,47 @@ footer p{
         margin: 0 auto;
     }
 
-    .sessao-autor .sobre-autor{
+    .sessao-autor .sobre-autor {
         margin: 40px auto 20px auto;
         width: 100%;
         padding-left: 30px;
     }
 
-    .sobre-autor h2{
+    .sobre-autor h2 {
         text-align: center;
     }
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:700px) {
 
-    .projeto0{
+    .projeto0 {
         max-width: 650px;
         width: 100%;
         margin: 45px 0;
     }
 
-    .projeto0 .container-img{
+    .projeto0 .container-img {
         max-height: 500px;
         height: 100%;
         width: 100%;
         max-width: none;
     }
 
-    .projeto0 p, .projeto0 span{
+    .projeto0 p,
+    .projeto0 span {
         font-size: 25px;
     }
 
-    .titulo-contato h1{
+    .titulo-contato h1 {
         font-size: 45px;
     }
 
-    .titulo-contato h2{
+    .titulo-contato h2 {
         font-size: 22px;
     }
 
-    .contato .redes-sociais{
+    .contato .redes-sociais {
         float: left;
         width: calc(50% - 30px);
         margin: 100px 15px 20px 15px;
@@ -314,14 +316,14 @@ footer p{
 
 
 
-@media screen and (max-width:600px){
-    .contato .redes-sociais{
+@media screen and (max-width:600px) {
+    .contato .redes-sociais {
         width: 100%;
         margin: 50px 0;
         text-align: center;
     }
 
-    .tipos-projetos h2{
+    .tipos-projetos h2 {
         font-size: 16px;
     }
 }
