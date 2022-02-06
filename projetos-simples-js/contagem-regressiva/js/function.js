@@ -14,7 +14,7 @@ function contar() {
     var iniant = document.querySelector('#iniant');
     var fimant = document.querySelector('#fimant');
     var pulant = document.querySelector('#pulant');
-    
+
     //VALOR SPANS
     iniant.innerHTML = `${inicio.value}`
     fimant.innerHTML = `${fim.value}`
@@ -23,36 +23,17 @@ function contar() {
     //INICIANDO CONFIGURAÇÕES
     if (inicio.value.length == 0 || fim.value.length == 0) {
         res.innerHTML = '<p>[ERRO] Preencha os dados corretamente</p>'
-    
-    }else{
+
+    } else {
 
         if (pulo.value.length == 0) {
-            if(inicio.value > 9999 || fim.value > 9999){
+            if (inicio.value > 9999 || fim.value > 9999) {
                 alert('[ERRO] Coloque um valor de INICIO e/ou FIM menor que 9999')
-            }else{
+            } else {
                 alert('Pulo não definido, considerando o 1')
                 pulo.value = 1
                 pulant.innerHTML = `1`;
 
-                var i = Number(inicio.value);
-                var f = Number(fim.value);
-                var p = Number(pulo.value); 
-                res.innerHTML = 'Contando: <br>'
-
-                if (i < f) {
-                    for (var c = i; c <= f; c += p) {
-                        res.innerHTML += `${c}... `
-                    }
-                }else if(i > f){
-                    for (var c = i; c >= f; c -= p) {
-                        res.innerHTML += `${c}... `
-                    }
-                }
-            }
-        }else{
-            if(inicio.value > 9999 || fim.value > 9999){
-                alert('[ERRO] Coloque um valor de INICIO e/ou FIM menor que 9999')
-            }else{
                 var i = Number(inicio.value);
                 var f = Number(fim.value);
                 var p = Number(pulo.value);
@@ -62,7 +43,26 @@ function contar() {
                     for (var c = i; c <= f; c += p) {
                         res.innerHTML += `${c}... `
                     }
-                }else if(i > f){
+                } else if (i > f) {
+                    for (var c = i; c >= f; c -= p) {
+                        res.innerHTML += `${c}... `
+                    }
+                }
+            }
+        } else {
+            if (inicio.value > 9999 || fim.value > 9999) {
+                alert('[ERRO] Coloque um valor de INICIO e/ou FIM menor que 9999')
+            } else {
+                var i = Number(inicio.value);
+                var f = Number(fim.value);
+                var p = Number(pulo.value);
+                res.innerHTML = 'Contando: <br>'
+
+                if (i < f) {
+                    for (var c = i; c <= f; c += p) {
+                        res.innerHTML += `${c}... `
+                    }
+                } else if (i > f) {
                     for (var c = i; c >= f; c -= p) {
                         res.innerHTML += `${c}... `
                     }
@@ -74,7 +74,7 @@ function contar() {
             }
         }
     }
-    
+
 }
 
 function fechar() {
@@ -94,4 +94,3 @@ function reiniciar() {
     res.innerHTML = ''
     document.querySelector('#reiniciar').style.display = "none";
 }
-

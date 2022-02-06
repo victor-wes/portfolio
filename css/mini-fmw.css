@@ -1,45 +1,46 @@
 /*paleta de cores*/
 
 .color-primary-0 {
-    background-color: #42368c; 
+    background-color: #42368c;
 }
+
 .color-secondary-1-0 {
-    background-color: #29258c; 
+    background-color: #29258c;
 }
 
 .color-secondary-2-0 {
-    background-color: #303841; 
+    background-color: #303841;
 }
 
 .color-secondary-3 {
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
 }
 
 .color-complement-0 {
-    background-color: #000000; 
+    background-color: #000000;
 }
 
 /*****************/
 
 /*tags gerais*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "open sans";
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.espacamento{
+.espacamento {
     padding: 85px 2%;
 }
 
 /*************/
 
-header{
+header {
     padding: 20px 2%;
     position: fixed;
     top: 0;
@@ -49,12 +50,12 @@ header{
 }
 
 
-header .logo{
+header .logo {
     float: left;
     margin-left: 20px;
 }
 
-div.logo a{
+div.logo a {
     padding: 10px 25px;
     text-decoration: none;
     font-size: 25px;
@@ -64,7 +65,7 @@ div.logo a{
     font-weight: lighter;
 }
 
-section.header-atalho{
+section.header-atalho {
     display: none;
     position: absolute;
     left: 0;
@@ -75,24 +76,24 @@ section.header-atalho{
     box-shadow: 5px 5px 15px rgb(0 0 0 / 40%);
 }
 
-.projeto-atalho{
+.projeto-atalho {
     float: left;
     width: calc(33.3% - 10px);
 }
 
-div.atalho-container{
+div.atalho-container {
     max-width: 350px;
     margin: 0 auto;
 }
 
-div.atalho-container h1.projeto-atalho-h1{
+div.atalho-container h1.projeto-atalho-h1 {
     color: black;
     font-size: 20px;
     padding: 0 0px 5px 0;
     border-bottom: 1px solid black;
 }
 
-div.atalho-container a.projeto-atalho-a{
+div.atalho-container a.projeto-atalho-a {
     color: black;
     text-decoration: none;
     display: block;
@@ -102,37 +103,37 @@ div.atalho-container a.projeto-atalho-a{
     font-weight: 400;
 }
 
-.fa-circle-arrow-right{
+.fa-circle-arrow-right {
     color: #833fc1;
     font-size: 12px;
     display: none;
 }
 
-.projeto-atalho-a:hover{
+.projeto-atalho-a:hover {
     background-color: rgb(171 217 90);
     box-shadow: 3px 3px 18px rgb(0 0 0 / 53%);
 }
 
-.projeto-atalho-a:hover > i{
+.projeto-atalho-a:hover>i {
     display: inline;
 }
 
-div.landing-page{
+div.landing-page {
     margin: 0 15px;
 }
 
 
 /*menu-DESKTOP*/
-header nav.menuDesktop{
+header nav.menuDesktop {
     float: right;
 }
 
-header nav.menuDesktop ul{
+header nav.menuDesktop ul {
     list-style-type: none;
     margin-top: 3px;
 }
 
-nav.menuDesktop ul li{
+nav.menuDesktop ul li {
     float: left;
     margin: 0 25px;
 }
@@ -144,28 +145,29 @@ nav.menuDesktop a {
     font-weight: lighter;
 }
 
-span#cima{
+span#cima {
     display: none;
 }
 
-span.seta-projetos{
+span.seta-projetos {
     font-size: 14px;
     padding: 3px 3px;
     cursor: pointer;
     color: white;
 }
+
 /***************/
 
 
 /*menu-MOBILE*/
-nav.menuMobile{
+nav.menuMobile {
     width: 270px;
     position: absolute;
     top: 0;
     right: 0;
 }
 
-#txtHam{
+#txtHam {
     display: none;
     float: right;
     margin-top: 19px;
@@ -178,7 +180,7 @@ nav.menuMobile{
     cursor: pointer;
 }
 
-nav.menuMobile img{
+nav.menuMobile img {
     display: none;
     float: right;
     margin-top: 23px;
@@ -187,7 +189,7 @@ nav.menuMobile img{
     cursor: pointer;
 }
 
-nav.menuMobile ul.menuMobileUl{
+nav.menuMobile ul.menuMobileUl {
     display: none;
     width: 100%;
     min-height: 541px;
@@ -199,14 +201,14 @@ nav.menuMobile ul.menuMobileUl{
     background-color: #f2f2f2;
 }
 
-nav.menuMobile ul li{
+nav.menuMobile ul li {
     width: 100%;
     cursor: pointer;
 }
 
-nav.menuMobile ul li a{
+nav.menuMobile ul li a {
     display: block;
-    padding: 20px ;
+    padding: 20px;
     text-decoration: none;
     font-size: 23px;
     font-family: cursive;
@@ -214,40 +216,41 @@ nav.menuMobile ul li a{
     color: rgb(24, 24, 24);
 }
 
-nav.menuMobile a:hover{
+nav.menuMobile a:hover {
     background-color: rgb(206, 205, 205);
     box-shadow: 0 3px 14px rgba(0, 0, 0, 0.29);
 }
+
 /*****************/
 
 
 /*RESPONSIVIDADE*/
-@media screen and (min-width:660px){
-    #menuMobile{
+@media screen and (min-width:660px) {
+    #menuMobile {
         display: none;
     }
 
-    #menuDesktop{
+    #menuDesktop {
         display: block;
     }
 }
 
-@media screen and (max-width:659px){
-    header{
+@media screen and (max-width:659px) {
+    header {
         padding: 20px 2%;
     }
-      
-    header .logo{
+
+    header .logo {
         margin: 0;
         width: 50%;
 
     }
-      
-    header nav.menuDesktop{
+
+    header nav.menuDesktop {
         display: none;
     }
 
-    nav.menuMobile img{
+    nav.menuMobile img {
         display: block;
     }
 }

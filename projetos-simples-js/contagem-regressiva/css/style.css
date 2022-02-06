@@ -4,18 +4,18 @@ body {
     overflow-x: hidden;
 }
 
-main{
+main {
     margin-top: 100px;
 }
 
-main h1{
+main h1 {
     font-size: 1.7em;
     color: white;
     margin-bottom: 40px;
     text-align: center;
 }
 
-section{
+section {
     width: 490px;
     margin: auto;
     padding: 30px 2%;
@@ -24,22 +24,22 @@ section{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-section div{
+section div {
     padding: 20px 15px;
 }
 
-input{
+input {
     padding: 5px;
     font-size: 0.8em;
     margin: 5px 0;
 }
 
-div#res{
+div#res {
     margin: 0;
     font-size: 1em;
 }
 
-footer{
+footer {
     font-size: 0.85em;
     margin-top: 30px;
     font-style: italic;
@@ -47,7 +47,7 @@ footer{
     text-align: center;
 }
 
-.numero-anterior{
+.numero-anterior {
     float: right;
     min-width: 35px;
     height: 34px;
@@ -61,20 +61,20 @@ footer{
     cursor: context-menu;
 }
 
-#fim{
+#fim {
     margin-left: 19px;
 }
 
-#pulo{
+#pulo {
     margin-left: 14px;
 }
 
-.container{
+.container {
     margin: 0;
     text-align: center;
 }
 
-.botao{
+.botao {
     width: 130px;
     padding: 8px;
     background-color: #474747c2;
@@ -86,7 +86,7 @@ footer{
     margin-top: 25px;
 }
 
-#explosao{
+#explosao {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -99,7 +99,7 @@ footer{
     display: none;
 }
 
-#fechar{
+#fechar {
     width: 30px;
     padding: 3px 0;
     background-color: rgba(255, 0, 0, 0.767);
@@ -113,14 +113,14 @@ footer{
     z-index: 9;
 }
 
-#explosao > video{
+#explosao>video {
     width: 100%;
     height: calc(100% + 145px);
     position: relative;
     top: -140px;
 }
 
-#reiniciar{
+#reiniciar {
     display: none;
     margin: auto;
 }

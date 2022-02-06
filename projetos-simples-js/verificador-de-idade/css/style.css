@@ -1,20 +1,20 @@
-body{
+body {
     background-color: rgb(139, 30, 212);
     font: normal normal 1.2em verdana, sans-serif;
 }
 
-main{
+main {
     margin-top: 100px;
 }
 
-main h1{
+main h1 {
     font-size: 1.7em;
     color: white;
     margin-bottom: 40px;
     text-align: center;
 }
 
-section.corpo{
+section.corpo {
     max-width: 500px;
     margin: auto;
     background-color: white;
@@ -23,25 +23,25 @@ section.corpo{
     padding: 10px;
 }
 
-section.corpo div{
+section.corpo div {
     padding: 10px 15px;
 }
 
-section.corpo div > p{
+section.corpo div>p {
     margin: 10px 0;
 }
 
-input.input{
+input.input {
     margin: 15px 0;
 }
 
-div#res{
+div#res {
     text-align: center;
     padding: 30px 2%;
     font-size: 1.2em;
 }
 
-footer{
+footer {
     font-size: 0.85em;
     margin-top: 30px;
     font-style: italic;
@@ -49,12 +49,12 @@ footer{
     text-align: center;
 }
 
-.container{
+.container {
     margin: 0;
     text-align: center;
 }
 
-.botao{
+.botao {
     margin-top: 15px;
     width: 130px;
     padding: 8px;
@@ -66,7 +66,7 @@ footer{
     color: white;
 }
 
-#txtano{
+#txtano {
     width: 220px;
     min-height: 15px;
     padding: 3px 5px;
