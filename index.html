@@ -24,8 +24,8 @@
             <ul>
                 <li class="header-projetos">
                     <a href="#projetos">Projetos</a>
-                    <span id="baixo" class="seta-projetos fas fa-angle-down" onclick="menuProjetosOn()"></span>
-                    <span id="cima" class="seta-projetos fa fa-angle-up" onclick="menuProjetosOff()"></span>
+                    <button id="baixo" class="seta-projetos fas fa-angle-down" onclick="menuProjetosOn()"></button>
+                    <button id="cima" class="seta-projetos fa fa-angle-up" onclick="menuProjetosOff()"></button>
                 </li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -91,9 +91,9 @@
             <h1 class="titulo">Estes são alguns dos meus projetos feitos</h1>
 
             <div class="tipos-projetos">
-                <h2 onclick="slideProjetos()" id="ps">Projetos Simples</h2>
-                <h2 onclick="slideProjetos()" id="lp">Landing Pages</h2>
-                <h2 onclick="slideProjetos()" id="si">Sites Institucionais</h2>
+                <button onclick="slideProjetos(1)" id="ps">Projetos Simples</button>
+                <button onclick="slideProjetos(2)" id="lp">Landing Pages</button>
+                <button onclick="slideProjetos(3)" id="si">Sites Institucionais</button>
                 <div class="clear"></div>
             </div><!--tipos-projetos-->
 

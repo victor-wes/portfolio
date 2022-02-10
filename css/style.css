@@ -65,7 +65,7 @@ div.tipos-projetos{
     margin: 20px 0;
 }
 
-.tipos-projetos h2{
+.tipos-projetos button{
     float: left;
     width: calc(33.3% - 20px);
     text-align: center;
@@ -75,17 +75,12 @@ div.tipos-projetos{
     background-color: #6f6a8f;
     border: 1px solid #0000009e;
     cursor: pointer;
-    font-size: 18px;
-}
-
-.tipos-projetos h2:first-child{
-    background-color: #2e2085;
+    font-size: 22px;
     box-shadow: 4px 5px 16px 0px #0000008a;
 }
 
-.tipos-projetos h2:hover{
+.tipos-projetos button:first-child{
     background-color: #2e2085;
-    box-shadow: 4px 5px 16px 0px #0000008a;
 }
 
 div.container-projetos{
@@ -326,8 +321,8 @@ footer p{
         text-align: center;
     }
 
-    .tipos-projetos h2{
-        font-size: 16px;
+    .tipos-projetos button{
+        font-size: 17px;
     }
 }
 
