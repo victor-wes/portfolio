@@ -170,6 +170,10 @@ button.seta-projetos {
     border: none;
 }
 
+.landing-page, .sites-institucionais{
+    display: none;
+}
+
 /***************/
 
 
