@@ -15,7 +15,7 @@ main h1 {
     text-align: center;
 }
 
-section {
+section.conteudo{
     width: 490px;
     margin: auto;
     padding: 30px 2%;
@@ -24,7 +24,7 @@ section {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
-section div {
+section.conteudo div{
     padding: 20px 15px;
 }
 
@@ -65,8 +65,8 @@ footer {
     margin-left: 19px;
 }
 
-#pulo {
-    margin-left: 14px;
+#pulo{
+    margin-left: 10px;
 }
 
 .container {

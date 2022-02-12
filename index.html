@@ -27,49 +27,40 @@
         <nav id="menuDesktop" class="menuDesktop">
             <ul>
                 <li class="header-projetos">
-                    <a href="#projetos" onclick="menuProjetosOff()">Projetos</a>
-                    <span id="baixo" class="seta-projetos fas fa-angle-down" onclick="menuProjetosOn()"></span>
-                    <span id="cima" class="seta-projetos fa fa-angle-up" onclick="menuProjetosOff()"></span>
+                    <a href="#projetos">Projetos</a>
+                    <button id="baixo" class="seta-projetos fas fa-angle-down" onclick="menuProjetosOn()"></button>
+                    <button id="cima" class="seta-projetos fa fa-angle-up" onclick="menuProjetosOff()"></button>
                 </li>
                 <li><a href="#sobre" onclick="menuProjetosOff()">Sobre</a></li>
                 <li><a href="#contato" onclick="menuProjetosOff()">Contato</a></li>
             </ul>
-            <section id="header-atalho" class="header-atalho">
-                <div class="projetos-js projeto-atalho">
-                    <div class="atalho-container">
-                        <h1 class="projeto-atalho-h1">Projetos Simples:</h1>
-                        <a class="projeto-atalho-a" onclick="menuProjetosOff()"
-                            href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva
-                            <i class="fa fa-circle-arrow-right"></i></a>
-                        <a class="projeto-atalho-a" onclick="menuProjetosOff()"
-                            href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i
-                                class="fa fa-circle-arrow-right"></i></a>
-                        <a class="projeto-atalho-a" onclick="menuProjetosOff()"
-                            href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de
-                            Idade <i class="fa fa-circle-arrow-right"></i></a>
-                    </div>
-                    <!--atalho-container-->
-                </div><!-- /.projetos-js projeto-atalho -->
-
-                <div class="landing-page projeto-atalho">
-                    <div class="atalho-container">
-                        <h1 class="projeto-atalho-h1">Landing Pages:</h1>
-                        <!--<a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva <i class="fa fa-circle-arrow-right"></i></a>
-                            <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i class="fa fa-circle-arrow-right"></i></a>
-                            <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de Idade <i class="fa fa-circle-arrow-right"></i></a>-->
-                    </div>
-                    <!--atalho-container-->
-                </div><!-- /.landing-page projeto-atalho -->
-
-                <div class="sites-institucionais projeto-atalho">
-                    <div class="atalho-container">
-                        <h1 class="projeto-atalho-h1">Sites Institucionais:</h1>
-                        <!--<a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva <i class="fa fa-circle-arrow-right"></i></a>
-                            <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i class="fa fa-circle-arrow-right"></i></a>
-                            <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de Idade <i class="fa fa-circle-arrow-right"></i></a>-->
-                    </div>
-                    <!--atalho-container-->
-                </div><!-- /.sites-institucionais projeto-atalho -->
+            <section id="header-atalho" class="header-atalho" onclick="menuProjetosOff()">
+                <div id="header-atalho-container" class="header-atalho-container">
+                    <div class="projetos-js projeto-atalho">
+                        <div class="atalho-container">
+                                <h1 class="projeto-atalho-h1">Projetos Simples:</h1>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de Idade <i class="fa fa-circle-arrow-right"></i></a>
+                        </div><!--atalho-container-->
+                    </div><!-- /.projetos-js projeto-atalho -->
+                    <div class="landing-page projeto-atalho">
+                        <div class="atalho-container">
+                                <h1 class="projeto-atalho-h1">Landing Pages:</h1>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de Idade <i class="fa fa-circle-arrow-right"></i></a>
+                        </div><!--atalho-container-->
+                    </div><!-- /.landing-page projeto-atalho -->
+                    <div class="sites-institucionais projeto-atalho">
+                        <div class="atalho-container">
+                                <h1 class="projeto-atalho-h1">Sites Institucionais:</h1>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/contagem-regressiva/contagem-regressiva.html">Contagem Regressiva <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/hora-do-dia/hora-do-dia.html">Hora do Dia <i class="fa fa-circle-arrow-right"></i></a>
+                                <a class="projeto-atalho-a" onclick="menuProjetosOff()" href="projetos-simples-js/verificador-de-idade/verificador-de-idade.html">Verificador de Idade <i class="fa fa-circle-arrow-right"></i></a>
+                        </div><!--atalho-container-->
+                    </div><!-- /.sites-institucionais projeto-atalho -->
+                </div><!--header-atalho-container-->
             </section><!-- /.header-atalho -->
         </nav>
         <!--menuDesktop-->
@@ -110,9 +101,9 @@
             <h1 class="titulo">Estes são alguns dos meus projetos feitos</h1>
 
             <div class="tipos-projetos">
-                <h2 onclick="slideProjetos()" id="ps">Projetos Simples</h2>
-                <h2 onclick="slideProjetos()" id="lp">Landing Pages</h2>
-                <h2 onclick="slideProjetos()" id="si">Sites Institucionais</h2>
+                <button onclick="slideProjetos(1)" id="ps">Projetos Simples</button>
+                <button onclick="slideProjetos(2)" id="lp">Landing Pages</button>
+                <button onclick="slideProjetos(3)" id="si">Sites Institucionais</button>
                 <div class="clear"></div>
             </div>
             <!--tipos-projetos-->
