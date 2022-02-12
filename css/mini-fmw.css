@@ -165,6 +165,7 @@ button.seta-projetos {
     font-size: 14px;
     padding: 3px 3px;
     cursor: pointer;
+    background-color: #000000;
     color: white;
     border: none;
 }
