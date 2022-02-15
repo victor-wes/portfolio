@@ -1,0 +1,102 @@
+:root{
+    --cor01: #fc056c;
+    --cor02: #a31e6c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    padding: 20px 0;
+}
+
+div.logo{
+    margin: 0;
+}
+
+div.logo a{
+    padding: 0;
+}
+
+.header, .sessao01{
+    position: static;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor02), var(--cor01));
+}
+
+.seta-projeto{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sessao01{
+    padding: 60px 0;
+}
+
+.txt-apresentacao{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.txt-apresentacao h1{
+    color: white;
+    font: 45px "open sans", sans-serif;
+}
+
+.txt-apresentacao p{
+    color: white;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.txt-apresentacao button{
+    margin-top: 20px;
+    width: 160px;
+    padding: 10px 0;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffffb6;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 6px 6px 16px #910c4a91;
+}
+
+.txt-apresentacao button:hover{
+    background-color: #d70c6a;
+    box-shadow: 6px 6px 16px #910c4afa;
+}
+
+.img-apresentacao{
+    float: right;
+}
+
+.img-apresentacao img{
+    height: 350px;
+}
