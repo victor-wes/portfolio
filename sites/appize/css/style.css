@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 1000px;
-}
-
 .container{
     max-width: 900px;
     width: 100%;
@@ -40,9 +36,9 @@ div.logo a{
     padding: 0;
 }
 
-.header, .sessao01{
+.header{
     position: static;
-    background-image: linear-gradient(to right, var(--cor01), var(--cor02), var(--cor01));
+    background-image: linear-gradient(135deg, var(--cor01), var(--cor02), var(--cor01));
 }
 
 .seta-projeto{
@@ -54,7 +50,7 @@ div.logo a{
 }
 
 .sessao01{
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .txt-apresentacao{
@@ -99,4 +95,54 @@ div.logo a{
 
 .img-apresentacao img{
     height: 350px;
+}
+
+div.cabecalho-sessao02 h1{
+    text-align: center;
+    font: normal 42px "open sans";
+    margin-top: 50px;
+}
+
+.border{
+    max-width: 75px;
+    border-bottom: 3px solid rgb(226, 58, 58);
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+div.cabecalho-sessao02 p{
+    font-size: 14px;
+    text-align: center;
+}
+
+div.funcoes{
+    margin-top: 70px;
+}
+
+.funcoes h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.funcoes p{
+    font-size: 15px;
+}
+
+.funcao{
+    padding: 20px 10px;
+}
+
+.funcao img{
+    height: 110px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 22.5px 0;
+}
+
+div.funcao:nth-of-type(1) img{
+    height: 160px;
+    margin: 0;
 }

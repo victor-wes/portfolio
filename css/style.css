@@ -73,7 +73,8 @@ div.tipos-projetos{
     color: rgb(242, 242, 242);
     margin: 0 10px;
     background-color: #6f6a8f;
-    border: 1px solid #0000009e;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
     cursor: pointer;
     font-size: 22px;
     box-shadow: 4px 5px 16px 0px #0000008a;
@@ -97,6 +98,7 @@ div.container-projetos{
     font-size: 30px;
     text-align: center;
     padding-bottom: 12px;
+    border-radius: 3px;
 }
 
 .projeto0 .container-img{
@@ -108,23 +110,31 @@ div.container-projetos{
     width: 100%;
 }
 
-.projeto0 span{
-    color: #d9ff00;
-    font-size: 23px;
-    display: none;
-}
-
 .transicao{
     padding: 5px 2%;
     font-size: 25px;
 }
 
-p.transicao:hover > span{
-    display: inline;
+.projeto0 span{
+    font-size: 25px;
+    color: #0e0e0e;
+    transition: color 0.3s;
 }
 
-section.sobre{
-    padding: 60px 2%;
+p.transicao:hover > span{
+    color: #d9ff00;
+}
+
+section#sobre{
+    background-color: rgb(235, 235, 235);
+}
+
+section#sobre h1, section#sobre h2, section#sobre h3, section#sobre p{
+    color: black;
+}
+
+section#sobre h1{
+    border-bottom: 1px solid black;
 }
 
 div.sessao-autor{
@@ -183,18 +193,28 @@ div.sessao-autor{
     float: left;
     width: calc(33.3% - 30px);
     margin: 100px 15px 20px 15px;
+    padding: 3px;
     text-align: center;
 }
 
 .redes-sociais:nth-of-type(5){
     float: none;
-    margin: 250px auto 0 auto;
+    margin: 220px auto 0 auto;
 }
 
 .redes-sociais a{
     text-align: center;
     text-decoration: none;
     margin: 0 auto;
+    cursor: pointer;
+    transition: top 0.4s;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.redes:hover{
+    top: 8px;
 }
 
 .redes-sociais a span{
@@ -208,7 +228,6 @@ div.sessao-autor{
 footer{
     padding: 20px 2%;
     width: 100%;
-    max-width: 1400px;
     background-color: #303841;
     border-top: 1px solid white;
     text-align: center;
@@ -277,7 +296,7 @@ footer p{
     .projeto0{
         max-width: 650px;
         width: 100%;
-        margin: 45px 0;
+        margin: 30px 0;
     }
 
     .projeto0 .container-img{
@@ -326,7 +345,23 @@ footer p{
     }
 
     .tipos-projetos button{
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    div.container-projetos{
+        margin: 0;
+    }
+
+    .sessao-autor .sobre-autor{
+        margin: 25px auto;
+        float: none;
+        padding: 0 2%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .tipos-projetos button{
+        font-size: 12px;
     }
 }
 
