@@ -198,7 +198,7 @@ section.sessao03{
 }
 
 section.sessao04{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .txt-cabecalho{
@@ -219,13 +219,14 @@ section.sessao04{
 }
 
 .equipe{
-    border-radius: 6px;
+    width: 200px;
+    border-radius: 8px;
     color: white;
     background-image: linear-gradient(90deg, var(--cor01), #cb0a7b, var(--cor01));
 }
 
 .equipe img{
-    border-radius: 6px 6px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .descricao-equipe{
