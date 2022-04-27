@@ -140,24 +140,65 @@ div.info-criador{
 
 div.img-criador{
     border-radius: var(--border-radius01) 0 0 var(--border-radius01);
+    background-image: url(../image/girl3.jpg);
+    height: 400px;
     width: 50%;
     float: left;
 }
 
-div.img-criador img{
-    background-blend-mode: darken;
-    width: 100%;
-    height: 400px;
+div.img-criador > div.backg-criador{
     border-radius: var(--border-radius01) 0 0 var(--border-radius01);
+    background-image: linear-gradient(to bottom, #00000021, #0000009e);
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
 }
 
 
+/*color: #3d383a*/
 
+div.text-criador{
+    padding: 45px 20px 20px 40px;
+    width: 50%;
+    float: left;
+    max-height: 400px;
+    height: 100%;
+}
 
+.text-criador h1{
+    font-size: 30px;
+    color: #3d383a;
+    margin-bottom: 10px;
+}
 
+.text-criador h2{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #978b91;
+}
 
+.text-criador .border{
+    width: 50px;
+    height: 5px;
+    background-color: var(--cor01);
+    margin: 15px 0;
+}
 
+.text-criador p{
+    color: #3d383a;
+    font-size: 16px;
+    line-height: 23px;
+}
 
+.text-criador button{
+    margin-top: 35px;
+    padding: 13px 55px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: var(--cor01);
+
+}
 
 
 
