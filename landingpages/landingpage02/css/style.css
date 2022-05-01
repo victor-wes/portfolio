@@ -199,19 +199,50 @@ div.text-criador{
 
 section.trabalhos-recentes{
     background-color: var(--cor01);
-    height: 1000px;
+    height: 1080px;
     padding: 400px 180px;
+}
+
+div.titulo-sessao-trab-rec{
+    display: flex;
+    justify-content: space-between;
 }
 
 section.trabalhos-recentes h1{
     color: white;
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+button.arrow{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-right: 1px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+button.arrow span{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+    left: 0;
+}
+
+button.arrow:hover{
+    background-color: white;
+}
+
+button.arrow:hover > span{
+    color: var(--cor01);
 }
 
 section.trabalhos-recentes div.trabalhos-recentes-container{
     max-width: 1200px;
-    padding: 40px 0;
+    margin: 40px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -224,28 +255,35 @@ div.trabalhos-recentes-container div.trabalho{
     background-position: center;
     background-size: cover;
     position: relative;
-    bottom: 0;
+    top: 0;
     left: 0;
-    cursor: pointer;
+    transition: 0.5s;
 }
 
 div.trabalhos-recentes-container > div.trabalho:hover{
-    width: 300px;
+    transition: 0.4s;
+    width: 290px;
     height: 450px;
+    top: -10px;
+    left: 0;
+    box-shadow: 2px 3px 20px 10px #00000048;
 }
 
 div.trabalho:hover > div.backg{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--cor01));
 }
 
-div.trabalho:hover p{
-    color: #e587ac;
-}
+.tr01{background-image: url("../image/recent-img1.jpg");}
+.tr02{background-image: url("../image/recent-img2.jpg");}
+.tr03{background-image: url("../image/recent-img3.jpg");}
+.tr04{background-image: url("../image/recent-img4.jpg");}
 
-.t01{background-image: url("../image/recent-img1.jpg");}
-.t02{background-image: url("../image/recent-img2.jpg");}
-.t03{background-image: url("../image/recent-img3.jpg");}
-.t04{background-image: url("../image/recent-img4.jpg");}
+div.trabalho div.like{
+    position: relative;
+    top: 17px;
+    left: 15px;
+    cursor: pointer;
+}
 
 div.trabalho div.text-trabalho{
     position: absolute;
@@ -254,7 +292,7 @@ div.trabalho div.text-trabalho{
 }
 
 div.text-trabalho h2{
-    font-size: 20px;
+    font-size: 19px;
     color: white;
     margin-bottom: 5px;
 }
@@ -264,4 +302,16 @@ div.text-trabalho p{
     font-size: 13px;
     font-weight: lighter;
     font-family: sans-serif;
+}
+
+div.trabalho:hover p{
+    color: #e587ac;
+}
+
+section.portfolios{
+    background-color: #f2d5d7;
+    padding: 100px 0;
+    background-image: url("../image/camera-bg.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
